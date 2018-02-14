@@ -1,0 +1,11 @@
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\bin\Debug\netcoreapp2.0\EFCoreTutorial.deps.json
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\bin\Debug\netcoreapp2.0\EFCoreTutorial.runtimeconfig.json
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\bin\Debug\netcoreapp2.0\EFCoreTutorial.runtimeconfig.dev.json
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\bin\Debug\netcoreapp2.0\EFCoreTutorial.dll
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\obj\Debug\netcoreapp2.0\EFCoreTutorial.csprojResolveAssemblyReference.cache
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\obj\Debug\netcoreapp2.0\EFCoreTutorial.csproj.CoreCompileInputs.cache
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\obj\Debug\netcoreapp2.0\EFCoreTutorial.AssemblyInfoInputs.cache
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\obj\Debug\netcoreapp2.0\EFCoreTutorial.AssemblyInfo.cs
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\bin\Debug\netcoreapp2.0\EFCoreTutorial.pdb
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\obj\Debug\netcoreapp2.0\EFCoreTutorial.dll
+D:\SampleProjects\EFCoreTutorial\EFCoreTutorial\obj\Debug\netcoreapp2.0\EFCoreTutorial.pdb
