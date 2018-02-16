@@ -11,9 +11,10 @@ using System;
 namespace EFCoreTutorialGit.Migrations
 {
     [DbContext(typeof(InvoicingToolContext))]
-    partial class InvoicingToolContextModelSnapshot : ModelSnapshot
+    [Migration("20180216042700_InvoiceDB2")]
+    partial class InvoiceDB2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
