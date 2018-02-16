@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreTutorialGit", "EFCoreTutorialGit\EFCoreTutorialGit.csproj", "{B2A41A0C-E5B0-488F-AACB-71DE147D78F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicingRepository", "InvoicingRepository\InvoicingRepository.csproj", "{69FA688D-5FE1-4115-BB1D-A238D3B4AFB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoicingRepository", "InvoicingRepository\InvoicingRepository.csproj", "{69FA688D-5FE1-4115-BB1D-A238D3B4AFB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicingService", "InvoicingService\InvoicingService.csproj", "{A7830A36-8CD3-41DB-BF4C-7F6A0F67FE37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{69FA688D-5FE1-4115-BB1D-A238D3B4AFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69FA688D-5FE1-4115-BB1D-A238D3B4AFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69FA688D-5FE1-4115-BB1D-A238D3B4AFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7830A36-8CD3-41DB-BF4C-7F6A0F67FE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7830A36-8CD3-41DB-BF4C-7F6A0F67FE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7830A36-8CD3-41DB-BF4C-7F6A0F67FE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7830A36-8CD3-41DB-BF4C-7F6A0F67FE37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

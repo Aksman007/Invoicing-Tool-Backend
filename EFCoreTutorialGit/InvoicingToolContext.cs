@@ -29,10 +29,6 @@ namespace EFCoreTutorialGit
                 entity.Property(e => e.EndDate)
                .HasColumnType("Date");
 
-                entity.HasOne<Mail>(s => s.Mail)
-                .WithMany(e => e.Invoices)
-                .HasForeignKey(s => s.MailId);
-
                 entity.HasOne<InvoiceSchedule>(s => s.InvoiceSchedule)
                 .WithMany(e => e.Invoices)
                 .HasForeignKey(s => s.InvoiceSchedId)
@@ -48,6 +44,10 @@ namespace EFCoreTutorialGit
 
                 entity.Property(e => e.SchedEndDate)
                 .HasColumnType("Date");
+
+                entity.HasOne<Mail>()
+                .WithOne(e => e.InvoiceSchedules)
+                .HasForeignKey<Mail>(s => s.InvoiceSchedId);
             });
 
         }

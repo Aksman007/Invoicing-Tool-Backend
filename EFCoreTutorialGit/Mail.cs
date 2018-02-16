@@ -12,6 +12,7 @@ namespace EFCoreTutorialGit
         public bool? IsHTML { get; set; }
         public bool? IsSent { get; set; }
 
-        public ICollection<Invoice> Invoices { get; set; }
+        public int? InvoiceSchedId { get; set; }
+        public InvoiceSchedule InvoiceSchedules { get; set; }
     }
 }

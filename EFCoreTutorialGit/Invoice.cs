@@ -13,9 +13,6 @@ namespace EFCoreTutorialGit
         public DateTime? EndDate { get; set; }
         public bool? IsAccured { get; set; }
         public float? Amount { get; set; }
-        
-        public int? MailId { get; set; }
-        public Mail Mail { get; set; }
 
         public int? InvoiceSchedId { get; set; }
         public InvoiceSchedule InvoiceSchedule { get; set; }

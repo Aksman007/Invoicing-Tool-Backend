@@ -13,6 +13,9 @@ namespace EFCoreTutorialGit
         public DateTime? SchedStartDate { get; set; }
         public DateTime? SchedEndDate { get; set; }
 
+        public int? MailId { get; set; }
+        public Mail Mail { get; set; }
+
         public ICollection<Invoice> Invoices { get; set; }
     }
 }
