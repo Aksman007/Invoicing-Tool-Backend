@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EFCoreTutorialGit\EFCoreTutorialGit.csproj" />
+    <ProjectReference Include="..\InvoicingRepository\InvoicingRepository.csproj" />
+  </ItemGroup>
+
 </Project>
