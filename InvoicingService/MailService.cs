@@ -7,8 +7,18 @@ namespace InvoicingService
 {
     public class MailService : IMailService
     {
-        private static InvoicingToolContext invoicingContext = new InvoicingToolContext();
-        UnitOfWork uow = new UnitOfWork(invoicingContext);
+        UnitOfWork uow;
+
+        public MailService(InvoicingToolContext invoicingContext)
+        {
+            uow = new UnitOfWork(invoicingContext);
+        }
+
+        public MailService()
+        {
+            uow = new UnitOfWork(new InvoicingToolContext());
+        }
+
         public Mail GetMailByScheduleId(int id)
         {
             return uow.MailRepository.GetAll()
